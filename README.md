@@ -41,6 +41,11 @@ lists the subcommands.
 
 ## Licensing
 
-The binaries carry `SPDX-License-Identifier: BUSL-1.1` in their source headers.
-The licence parameters for this artifact have not yet been stated — see the
-release notes before depending on it.
+`LICENSE` ships as an asset on every release, so the terms travel with the binary
+rather than living somewhere you have to go and find.
+
+It is a narrow grant, `LicenseRef-Margince-Craft-1.0`: you may obtain the binary
+and run it to review, analyse or check source code — on your own machine, in CI
+you control, and against code you do not own, which is what gating a pull request
+actually requires. It does not grant redistribution, modification or reverse
+engineering, and it does not publish the source.
